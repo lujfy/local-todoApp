@@ -1,0 +1,49 @@
+.container {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    background-color: #1e293b;
+    border-radius: 10px;
+    padding: 5px 9px;
+    margin-top: 5px;
+    gap: 10px;
+    transition: opacity .3s ease-in-out;
+    transition: text-decoration 3s ease-out;
+}
+
+span {
+    font-size: 15px;
+    position: relative;
+    flex-grow: 1;
+}
+
+form {
+    flex-grow: 1;
+}
+
+.done {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.trash {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #94a3b8;
+    padding: 2px 4px;
+    transition: border-bottom 1s ease-in-out;
+}
+
+input:focus {
+    border-bottom: 2px solid #06b6d4;
+
+    outline: none;
+}
+
